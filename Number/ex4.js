@@ -14,10 +14,10 @@ function isPrime(number) {
 function sumPrime(number){
     let sum = 0 ;
     for (i=0;i<=number;i++){
-         isPrime(i)? (sum+=i):""
+        if(isPrime(i)===true){sum+=i}
      }
     return sum  
 }
 
-let number = 5;
+let number = 7;
 console.log(sumPrime(number))

@@ -7,7 +7,7 @@ function sum(number) {
       }
     }
     console.log(factors)
-    var result = factors.reduce(function(total, value){
+    let result = factors.reduce(function(total, value){
         return total + value;
     });
     
